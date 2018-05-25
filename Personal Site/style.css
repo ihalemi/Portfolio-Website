@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(highland.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .box{
+      width: 460px;
+      background: rgba(0,0,0,0.4);
+      padding: 50px;
+      text-align: center;
+      margin: auto;
+      margin-top: 5%;
+      color: white;
+      font-family: 'Century Gothic', sans-serif;
+  }
+
+  .img {
+      border-radius: 50%;
+      width: 220px;
+      height: 280px;
+  }
+
+  .box h1 {
+      font-size: 60px;
+      letter-spacing: 4px;
+      font-weight: 120;
+
+  }
+
+  .box h2 {
+      font-size: 30px;
+      letter-spacing: 3px;
+  }
+
+  .box p {
+      text-align: justfy;
+      font-size: 20px;
+  }
+
+  ul {
+      margin: 0;
+      padding: 0;
+  }
+
+  .box li {
+      display: inline-block;
+      margin: 5px;
+      list-style: none;
+  }
+
+  .box li a{
+      color: white;
+      text-decoration: none;
+      font-size: 70px;
+      transition: all ease-in-out 270px;
+  }
+
+  .box li a:hover{
+      color: #b9b9b9;
+  }
